@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    <%=info.projectName %>
+  </title>
+  <style type="text/css">
+    #outlook a {
+      padding: 0;
+    }
+    body {
+      width: 100% !important;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .ExternalClass {
+      width: 100%;
+    }
+    * {
+      line-height: 100%;
+    }
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+      line-height: 100%;
+    }
+    #backgroundTable {
+      margin: 0;
+      padding: 0;
+      width: 100% !important;
+    }
+    img {
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+      margin: 0;
+    }
+    a img {
+      border: none;
+    }
+    .image_fix {
+      display: block;
+    }
+    p {
+      margin: 0!important;
+    }
+    table td {
+      border-collapse: collapse;
+      padding: 0;
+      margin: 0;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+    table {
+      padding: 0;
+      border-collapse: collapse;
+      border-spacing: 0;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    .appleLinks {
+      pointer-events: none !important;
+      cursor: default !important;
+    }
+    @media all and (max-width: 568px) {
+      body[yahoo] a[href^="tel"],
+      body[yahoo] a[href^="sms"] {
+        text-decoration: none;
+        color: inherit !important;
+        pointer-events: none;
+        cursor: default;
+      }
+      body[yahoo] tr {
+        width: 100%;
+      }
+      body[yahoo] .mobile_link a[href^="tel"],
+      body[yahoo] .mobile_link a[href^="sms"] {
+        text-decoration: default;
+        color: inherit !important;
+        cursor: default;
+      }
+      body[yahoo] .wspread {
+        width: 100% !important;
+        height: auto !important;
+        min-width: 0 !important;
+      }
+      body[yahoo] .half-spread {
+        width: 50% !important;
+        height: auto !important;
+        min-width: 0 !important;
+      }
+      body[yahoo] .mobile-show {
+        display: block;
+        width: 100% !important;
+        height: auto !important;
+      }
+      body[yahoo] .mobile-hide {
+        display: none !important;
+      }
+      body[yahoo] .mpad {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      body[yahoo] .mpad tbody {
+        display: block;
+      }
+      body[yahoo] .pl10 {
+        padding-left: 10px;
+      }
+      body[yahoo] .pr10 {
+        padding-right: 10px;
+      }
+      body[yahoo] .pl15 {
+        padding-left: 15px;
+      }
+      body[yahoo] .pr15 {
+        padding-right: 15px;
+      }
+      body[yahoo] .pl20 {
+        padding-left: 20px;
+      }
+      body[yahoo] .pr20 {
+        padding-right: 20px;
+      }
+      body[yahoo] .pl30 {
+        padding-left: 30px;
+      }
+      body[yahoo] .pr30 {
+        padding-right: 30px;
+      }
+      body[yahoo] .plr10 {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      body[yahoo] .plr15 {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      body[yahoo] .plr20 {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      body[yahoo] .plr30 {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+      body[yahoo] .side-pad {
+        width: <%= mSidePad%>%!important;
+      }
+      body[yahoo] .tb-pad {
+        height: <%= mTbPad%>px!important;
+      }
+      body[yahoo] .a-right {
+        text-align: right!important;
+      }
+      body[yahoo] .a-left {
+        text-align: left!important;
+      }
+      body[yahoo] .mobile-swap {
+        width: 100% !important;
+        max-width: 100%!important;
+        height: auto !important;
+        display: block !important;
+        float: none !important;
+        overflow: visible !important;
+        margin: 0;
+      }
+      body[yahoo] .mobile-swap.wauto {
+        width: auto !important;
+        height: 100% !important;
+      }
+      body[yahoo] .mob-h-auto {
+        height: auto!important;
+      }
+      body[yahoo] .wspread-inner {
+        width: <%= 100-(mSidePad*2)%>%!important;
+        max-width: <%= 100-(mSidePad*2)%>%!important;
+        min-width: 0!important;
+      }
+      EDMCOMPONENTS_STYLE
+    }
+    @media all and (min-width: 768px) and (max-width: 1024px) {
+      body[yahoo] a[href^="tel"],
+      body[yahoo] a[href^="sms"] {
+        text-decoration: none;
+        color: blue;
+        pointer-events: none;
+        cursor: default;
+      }
+      body[yahoo] .mobile_link a[href^="tel"],
+      body[yahoo] .mobile_link a[href^="sms"] {
+        text-decoration: default;
+        color: orange !important;
+        pointer-events: auto;
+        cursor: default;
+      }
+    }
+  </style>
+  <!--[if gte mso 15]>
+  <style type="text/css">
+    table { font-size:1px; line-height:0; mso-margin-top-alt:1px; }
+  </style>
+  <![endif]-->
+</head>
+
+<body yahoo="fix" bgcolor="<%= style.backgroundColor%>" style="background: <%= style.backgroundColor%>;">
+  <table id="main-wrapper" class="wspread" width="<%= style.width%>" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="<%= style.backgroundColor%>" style="background: <%= style.backgroundColor%>;">
+    <tr>
+      <td class="wspread" width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+<!-- BEGIN EDM COMPONENTS -->
+
+EDMCOMPONENTS_MARKUP
+<!-- END EDM COMPONENTS -->
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

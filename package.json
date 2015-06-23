@@ -1,0 +1,42 @@
+{
+  "name": "generator-lavender-email",
+  "version": "0.0.0",
+  "description": "Scaffolds EDM template based on various kind of options",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "LavenderAU/generator-lavender-email",
+  "author": {
+    "name": "Lavender Communications Group",
+    "email": "",
+    "url": "https://github.com/LavenderAU"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "lavender",
+    "edm",
+    "email"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.18.0",
+    "chalk": "^0.5.0",
+    "yosay": "^0.3.0",
+    "cheerio": "^0.18.0",
+    "request": "^2.53.0",
+    "fs": "^0.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}

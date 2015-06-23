@@ -1,0 +1,15 @@
+      body[yahoo] .CellImages3x2 .half-spread {
+        margin-bottom: 1.3%;
+      }
+      body[yahoo] .CellImages3x2 .half-spread td img {
+        width: 98%!important;
+      }
+      body[yahoo] .CellImages3x2 .half-spread.left td img {
+        float:left!important;
+      }
+      body[yahoo] .CellImages3x2 .half-spread.right td img {
+        float:right!important;
+      }
+      body[yahoo] .CellImages3x2 .half-spread.last-row {
+        margin-bottom: 0;
+      }

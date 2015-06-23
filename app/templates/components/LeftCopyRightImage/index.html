@@ -1,0 +1,73 @@
+              				<!--[if gte mso 9]>
+                        <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
+                          <tr>
+                            <td width="<%= parseInt(component.innerWidth/2, 10)%>" align="left">
+                      <![endif]-->
+                      <table cellspacing="0" cellpadding="0" border="0" class="wspread text" width="<%= parseInt(component.innerWidth/2, 10)%>" valign="top" align="left">
+                        <tr>
+                          <td width="100%" style="line-height:<%= (component.style.fontSize || 14) * (component.style.lineHeight || 1.2)%>px">
+                            <span style="font-family:Arial, Helvetica, sans-serif; font-size:<%= component.style.fontSize || 14%>px;color:<%= component.style.color || '#666666'%>;line-height:<%= (component.style.fontSize || 14) * (component.style.lineHeight || 1.2)%>px;">
+                              Dear FirstName,
+                            </span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="<%= lineBreakHeight || 10 %>">
+                            <img src="img/p.gif" width="100%" height="<%= lineBreakHeight || 10 %>"/>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td width="100%" style="line-height:<%= (component.style.fontSize || 14) * (component.style.lineHeight || 1.2)%>px">
+                            <span style="font-family:Arial, Helvetica, sans-serif; font-size:<%= component.style.fontSize || 14%>px;color:<%= component.style.color || '#666666'%>;line-height:<%= (component.style.fontSize || 14) * (component.style.lineHeight || 1.2)%>px;">
+                              Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
+                            </span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="<%= lineBreakHeight || 10 %>">
+                            <img src="img/p.gif" width="100%" height="<%= lineBreakHeight || 10 %>"/>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td width="100%" style="line-height:<%= (component.style.fontSize || 14) * (component.style.lineHeight || 1.2)%>px">
+                            <span style="font-family:Arial, Helvetica, sans-serif; font-size:<%= component.style.fontSize || 14%>px;color:<%= component.style.color || '#666666'%>;line-height:<%= (component.style.fontSize || 14) * (component.style.lineHeight || 1.2)%>px;">
+                              Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
+                            </span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="<%= lineBreakHeight || 10 %>">
+                            <img src="img/p.gif" width="100%" height="<%= lineBreakHeight || 10 %>"/>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td width="100%" style="line-height:<%= (component.style.fontSize || 14) * (component.style.lineHeight || 1.2)%>px">
+                            <span style="font-family:Arial, Helvetica, sans-serif; font-size:<%= component.style.fontSize || 14%>px;color:<%= component.style.color || '#666666'%>;line-height:<%= (component.style.fontSize || 14) * (component.style.lineHeight || 1.2)%>px;">
+                              Nulla porttitor accumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.
+                            </span>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if gte mso 9]>
+                            </td>
+                            <td width="<%= parseInt(component.innerWidth/2, 10)%>" align="right">
+                      <![endif]-->
+                      <table cellspacing="0" cellpadding="0" border="0" class="wspread image" width="<%= parseInt(component.innerWidth/2, 10)%>" valign="top" align="right">
+                        <tr>
+                          <td width="100%" align="right">
+                            <% if(component.linked) { %>
+                            <a href="notyetlinked" target="_blank" style="text-decoration:none;border:0;line-height:0;display:block;">
+                            <% } %>
+                            <span style="display:none;float:left;overflow:hidden;width:0;height:0;" class="mobile-swap wide"><img src="http://placehold.it/828x414&amp;text=Side+Image" style="display:none;float:left;overflow:hidden;width:0;height:0;" class="mobile-swap" alt=""></span>
+                            <img src="http://placehold.it/<%= parseInt(component.innerWidth/2, 10) - (component.colGap || colGap)%>x300&amp;text=Side+Image" alt="" style="display:block;border:0;" class="mobile-hide" />
+                            <% if(component.linked) { %>
+                            </a>
+                            <% } %>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if gte mso 9]>
+                            </td>
+                          </tr>
+                        </table>
+                      <![endif]-->

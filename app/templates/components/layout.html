@@ -1,0 +1,39 @@
+          <!-- BEGIN <%= component.name%> <%= component.id%> -->
+          <table cellspacing="0" cellpadding="0" border="0" class="wspread <%= component.name%> <%= component.id%>" width="100%" valign="top" align="center" bgcolor="<%= component.style.backgroundColor || style.backgroundColor || 'none'%>">
+            <% if(isNaN(component.tbPad) || component.tbPad > 0) { %>
+            <tr>
+              <td width="100%" height="<%= component.tbPad || tbPad || 13%>" valign="top">
+                <img src="img/p.gif" height="<%= component.tbPad || tbPad || 13%>" width="100%" style="display:block;border:0;" border="0"/>
+              </td>
+            </tr>
+            <% } %>
+            <tr>
+              <td width="100%" valign="top">
+                <table cellspacing="0" cellpadding="0" border="0" class="wspread comp-table" width="100%" valign="top" align="center">
+                  <tr>
+                    <% if(isNaN(component.sidePad) || component.sidePad > 0) { %>
+                    <td width="<%= sidePad%>" class="side-pad">
+                      <img class="side-pad" src="img/p.gif" height="15" width="100%" style="display:block;border:0;" border="0">
+                    </td>
+                    <% } %>
+                    <td class="comp-content wspread-inner" width="<%= component.innerWidth === style.width ? '100%' : component.innerWidth%>" height="<%= component.style.height || ''%>" align="<%= component.align || 'left'%>" valign="<%= component.valign || 'top'%>" style="line-height:<%= component.style.lineHeight || 1.3%>">
+COMPONENTMARKUP
+                    </td>
+                    <% if(isNaN(component.sidePad) || component.sidePad > 0) { %>
+                    <td width="<%= sidePad%>" class="side-pad">
+                      <img class="side-pad" src="img/p.gif" height="15" width="100%" style="display:block;border:0;" border="0">
+                    </td>
+                    <% } %>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <% if(isNaN(component.tbPad) || component.tbPad > 0) { %>
+            <tr>
+              <td width="100%" height="<%= component.tbPad || tbPad || 13%>" valign="top">
+                <img src="img/p.gif" height="<%= component.tbPad || tbPad || 13%>" width="100%" style="display:block;border:0;" border="0"/>
+              </td>
+            </tr>
+            <% } %>
+          </table>
+          <!-- END <%= component.name%> <%= component.id%> -->
