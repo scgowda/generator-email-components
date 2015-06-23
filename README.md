@@ -1,4 +1,4 @@
-# generator-lavender-email [![Build Status](https://secure.travis-ci.org/LavenderAU/generator-email-components.png?branch=master)](https://travis-ci.org/scgowda/generator-email-components)
+# generator-lavender-email [![Build Status](https://secure.travis-ci.org/scgowda/generator-email-components.png?branch=master)](https://travis-ci.org/scgowda/generator-email-components)
 
 > [Yeoman](http://yeoman.io) generator
 
