@@ -1,4 +1,4 @@
-# generator-lavender-email [![Build Status](https://secure.travis-ci.org/scgowda/generator-email-components.png?branch=master)](https://travis-ci.org/scgowda/generator-email-components)
+# generator-email-components
 
 > [Yeoman](http://yeoman.io) generator
 
@@ -14,7 +14,7 @@ npm install LavenderAU/generator-email-components
 Finally, initiate the generator:
 
 ```bash
-yo -email-components
+yo email-components
 ```
 
 ## License
